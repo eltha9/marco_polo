@@ -1,7 +1,7 @@
 <?php
 // Autoload
 require '../vendor/autoload.php';
-$config = parse_ini_file('../app/config.ini', true); // parse to json
+
 // Settings
 require '../app/settings.php';
 

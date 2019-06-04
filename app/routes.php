@@ -4,9 +4,9 @@
 $app->get('/', function($request, $response){
     
     $viewData=[];
-    $data = $this->db->query('SELECT * FROM project')->fetchAll();
+    //$data = $this->db->query('SELECT * FROM project')->fetchAll();
 
-    $viewData['projects'] =$data;
+    //$viewData['projects'] =$data;
     
     
 

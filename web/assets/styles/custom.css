@@ -1,0 +1,26 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.custom-rightbar{
+    margin-right: 80px !important;
+}
+nav{
+    background-color: #0E0E0E;
+}
+.custom-rightbar li{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.custom-leftbar{
+    margin-left: 80px !important;
+}
+
+.custom-home-first{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: red;
+}
