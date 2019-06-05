@@ -9,17 +9,63 @@
   </div>
 </div>
 <div class="container">
-
   <div class="row">
-    <div class="col ">
-      <img src="" alt="">
-      <h2></h2>
-      <h3></h3>
+    <h2> my project</h2>
+  </div>
+
+  {% for key , project in projects %}
+
+    {% if key%2 == 0  %}
+      <div class="row">
+        <a class="link-project" href="{{path_for('works', {'name': project.name|replace({' ': "_"})} ) }}"> 
+          <div class="col-sm">
+            <img src="{{project.intro_img}}" alt="">
+            <h3>{{project.name}}</h3>
+            <h4>{{project.role}}</h4>
+        
+        </a>
+      </div>
+
+    {% endif %}
+    {% if key%2 != 0  %}
+        <div class="col-sm">
+          <a class="link-project" href="{{path_for('works', {'name': project.name|replace({' ': "_"})} ) }}"> 
+              <img src="{{project.intro_img}}" alt="">
+              <h3>{{project.name}}</h3>
+              <h4>{{project.role}}</h4>
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
+  {% endfor %}
+  </div>
+  <div class=" contact" id="contact" >
+  
+  <div>
+    <div class="">
+      <span>say</span>
+      <span>hello</span>
     </div>
-    <div class="col">
-    
+    <div class="">
+      <label>
+        Mail :
+        <input type="mail" class="mail">
+      </label>
+      <label>
+        Hey Alban, I'm 
+        <textarea name="" id="" cols="30" rows="10" palceholder="...">
+        
+        </textarea>
+      </label>
+    </div>
+
+    </div>
+
+    <div class="">
+      <input type="submit" value="SEND">
     </div>
   </div>
 
-</div>
+
 {% include './partials/footer.twig' %}
