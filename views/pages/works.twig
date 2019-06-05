@@ -1,8 +1,71 @@
 {% include 'partials/header.twig' %}
 
+<div class="pres">
+    <img src="{{base_url() ~ content.intro_img}}" alt="">
+    <div class="title">
+        <h1>{{content.name}}</h1>
+        <h2>{{content.mission}}</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="row main">
+        <div class="col right-up">
+            <h2>{{content.name}}</h2>
+            <p>
+                {{content.description}}
+            </p>
+            <a href="{{content.discover_link}}">Discover</a>
+        </div>
+        
+        
+        <div class="col left-up">
+            <div class="date">
+                <h4>Date</h4>
+                <span>{{content.date}}</span>
+            </div>
+            <div class="task">
+                <h4>Tasks</h4>
+                <div class="left-up-sub">
+                    {% for task in content.tasks%}
+                    <span>{{task}}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row main-sup-content">
+        <img src="{{base_url() ~ content.second_img}}" alt="">
+    </div>
 
+    {% for truc in content.other %}
+  
+        {% if truc.type == "title" %}
+            <div class="row other-title">
+                <h4>{{truc.content}}</h4>
+            </div>
+        {% endif %}
 
+        {% if truc.type == "img" %}
+            <div class="row other-img">
+                <img src="{{base_url() ~ truc.content}}" alt="">
+            </div>
+        {% endif %}
 
+        {% if truc.type == "text" %}
+            <div class="row other-txt">
+                <p>{{truc.content}} </p>
+            </div>
+        {% endif %}
+    
 
+    {% endfor %}
+
+</div>
+
+<footer>
+
+</footer>
 
 {% include 'partials/footer.twig' %}

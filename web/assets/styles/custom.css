@@ -6,6 +6,13 @@ font-family: 'Heebo', sans-serif;
 font-family: 'Taviraj', serif;
 */
 
+.custom-home-first{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: #0E0E0E;;
+    margin: 0 0;
+}
 .col-sm img{
     width: 80% ;
     height: 70%;

@@ -1,0 +1,29 @@
+{
+    "nav_color": "rgba(51, 51, 51, 0.3)",
+    "intro_img": "/assets/images/Sarah/Photo.jpg",
+    "name": "Sarah’s House",
+    "mission": "DesignerUI / UX 2019, Website",
+    "date" : "February 2019",
+    "tasks": ["UI designer","UX designer"],
+    "description": "Revol Snax is a one-week project.The objective was simple: to promote the project from the Kickstarter website and make it attractive. The second objective was to create an efficient and simple purchasing process for the general public. ",
+    "discover_link": "#",
+    "second_img": "/assets/images/Sarah/Blog.jpg",
+    "next": {
+        "name": "plop",
+        "year": 2018
+    },
+    "other": [
+        {
+            "type":"title",
+            "content": "Sarah’s Harrelson  Miami Home"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Sarah/Chapitre.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Sarah/Achat.jpg"
+        }
+    ]
+}
