@@ -18,7 +18,9 @@ $app->get('/', function($request, $response){
 $app->get('/about', function($request, $response){
     
     $viewData=[];
-    return $this->view->render($response, './pages/contact.twig');
+    $viewData['style']= "about.css";
+
+    return $this->view->render($response, './pages/about.twig', $viewData);
 
 })->setName('about');
 
