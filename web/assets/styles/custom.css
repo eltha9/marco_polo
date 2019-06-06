@@ -12,7 +12,39 @@ font-family: 'Taviraj', serif;
     color: white;
     background-color: #0E0E0E;;
     margin: 0 0;
+    position: relative;
 }
+.custom-home-first .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.custom-home-first .title h1{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Taviraj', serif;
+
+}
+.custom-home-first .title h2{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
+}
+.custom-home-first .scroll{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Heebo', sans-serif;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
 .col-sm img{
     width: 80% ;
     height: 70%;
@@ -22,9 +54,20 @@ font-family: 'Taviraj', serif;
 }
 .col-sm h3{
     text-transform: capitalize;
+    color: #1C1C1C;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Taviraj', serif;
 }
 .row{
     margin-bottom: 30px !important;
+}
+.col-sm h4{
+    text-transform: capitalize;
+    color: #1C1C1C;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Heebo', sans-serif;
 }
 
 .contact{
@@ -39,4 +82,62 @@ a.link-project h3, a.link-project h4{
 a.link-project h3:hover, a.link-project h4:hover{
     color: black !important;
     text-decoration: none !important;
+}
+.container .row h2{
+    color: #1C1C1C;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Taviraj', serif;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/* MAILER */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.contact .hello{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+    font-size: 150px;
+    font-weight: 500;
+    font-family: 'Taviraj', serif;
+    text-transform: capitalize;
+    line-height: 100%;
+    align-content: flex-start;
+
+}
+
+.contact .inputs{
+
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Taviraj', serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.contact .inputs input{
+    border: none;
+}
+
+.contact .inputs textarea{
+    border: none;
+    font-size: 20px;
+}
+
+.contact .send-button{
+    align-self: flex-end;
+
+}
+
+.contact .send-button input{
+    margin: 0 20px 20px 0;
 }

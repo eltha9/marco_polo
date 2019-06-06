@@ -23,15 +23,15 @@
         },
         {
             "type":"img",
-            "content": "/assets/images/Thea/Single-1.jpg"
+            "content": "/assets/images/Thea/Thea-Single-1.jpg"
         },
         {
             "type":"img",
-            "content": "/assets/images/Thea/Single-2.jpg"
+            "content": "/assets/images/Thea/Thea-Single-2.jpg"
         },
         {
             "type":"img",
-            "content": "/assets/images/Thea/Single-3.jpg"
+            "content": "/assets/images/Thea/Thea-Single-3.jpg"
         },
         {
             "type":"title",
@@ -43,7 +43,7 @@
         },
         {
             "type":"img",
-            "content": "/assets/images/Thea/Single-4.jpg"
+            "content": "/assets/images/Thea/Thea-Single-4.jpg"
         }
     ]
 }
