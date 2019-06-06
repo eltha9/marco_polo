@@ -1,0 +1,61 @@
+{
+    "nav_color": "rgba(214, 162, 40, 0.3)",
+    "intro_img": "/assets/images/Revol_Snax/RevolSnax-Intro.jpg",
+    "name": "Revol Snax",
+    "mission": "UI / UX 2019, Website",
+    "date" : "January 2019",
+    "tasks": ["UI designer","UX designer"],
+    "description": "Revol Snax is a one-week project. The objective was simple: to promote the project from the Kickstarter website and make it attractive. The second objective was to create an efficient and simple purchasing process for the general public. ",
+    "discover_link": "#",
+    "second_img": "/assets/images/Revol_Snax/RevolSnax-preview.jpg",
+    "next": {
+        "name": "Théa D.Santos",
+        "year": "2019"
+    },
+    "other": [
+        {
+            "type":"title",
+            "content": "Acquire the user's confidence"
+        },
+        {
+            "type":"text",
+            "content": "For the purchase process I really wanted to keep the design simple because I adapted to the brand's target audience. But I also tried to make it as attractive as possible while reassuring the user as much as possible, which is one of the most important things in a purchasing process. "
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-preview.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-Slider-2.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-Slider-3.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-Slider-4.jpg"
+        },
+        {
+            "type":"title",
+            "content": "See The Unmatched Beauty Of The Great"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-Parallax.jpg"
+        },
+        {
+            "type":"title",
+            "content": "Product Promotion"
+        },
+        {
+            "type":"text",
+            "content": "As in the purchasing process, we must reassure the user about the quality of our product and its reliability. That's why I tried to highlight the product and its features in order to create the purchase."
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Revol_Snax/RevolSnax-Single-1.jpg"
+        }
+    ]
+}

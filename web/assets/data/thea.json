@@ -1,0 +1,49 @@
+{
+    "nav_color": "rgba(33, 32, 32, 0.3)",
+    "intro_img": "/assets/images/Thea/plop.jpg",
+    "name": "Théa D.Santos",
+    "mission": "UI / UX 2019, Website",
+    "date" : "February 2019",
+    "tasks": ["UI designer","UX designer"],
+    "description": "My point here is that if you have no clue for the answers above you probably are not operating a followup campaign successfully. These are crucial element that must be explored when you are choosing an autoresponder.",
+    "discover_link": "#",
+    "second_img": "/assets/images/Thea/Thea-Intro.jpg",
+    "next": {
+        "name": "sarah's house",
+        "year": "2019"
+    },
+    "other": [
+        {
+            "type":"title",
+            "content": "An extension of yourself"
+        },
+        {
+            "type":"text",
+            "content": "Creating a portfolio is always complicated. Because we have to create a website that looks like the person. For this reason it is important to talk at length with the author of the portfolio to try to understand what he is trying to transcribe with his website and how far he wants to go. "
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Thea/Single-1.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Thea/Single-2.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Thea/Single-3.jpg"
+        },
+        {
+            "type":"title",
+            "content": "Simplicity is the key"
+        },
+        {
+            "type":"text",
+            "content": "In my opinion, a portfolio should reflect the author's personality but remain simple for the user, which means that he or she does not lose it and can therefore be brought into our world. A portfolio is a real experience for the user because it enters our intimacy."
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Thea/Single-4.jpg"
+        }
+    ]
+}

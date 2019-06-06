@@ -64,20 +64,20 @@
 
 </div>
 
-<a href="#" class="link-footer">
+<a href="{{path_for('works', {'name': content.next.name|replace({' ': "_"})} ) }}" class="link-footer">
     <footer>
         <div class="title">
             <span>Next</span>
             <span>Project</span>
         </div>
         <div class="next_pres">
-            <div>
+            <div class="colo">
                 <h5>Project</h5>
-                <span></span>
+                <span>{{content.next.name}}</span>
             </div>
-            <div>
+            <div class="colo">
                 <h5>Year</h5>
-                <span></span>
+                <span>{{content.next.year}}</span>
             </div>
         </div>
     </footer>

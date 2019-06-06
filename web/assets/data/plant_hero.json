@@ -1,0 +1,65 @@
+{
+    "nav_color": "rgba(47, 198, 128, 0.3)",
+    "intro_img": "/assets/images/Plant_Hero/PlantHero-Intro.jpg",
+    "name": "Plant Hero",
+    "mission": "DesignerUI / UX 2018, Website",
+    "date" : "September 2018",
+    "tasks": ["UI designer","UX designer"],
+    "description": "Plant Hero is a project carried out during one week in a team. During this project I had the role of UX/UI designer. The objective was simple: to promote the project from the Kickstarter website and make it attractive. To this end, my mission was to reassure users about the quality and usefulness of the product in question.",
+    "discover_link": "#",
+    "second_img": "/assets/images/Plant_Hero/PlantHero-Preview.jpg",
+    "next": {
+        "name": "revol snax",
+        "year": "2019"
+    },
+    "other": [
+        {
+            "type":"title",
+            "content": "The website"
+        },
+        {
+            "type":"text",
+            "content": "The purpose of the site is therefore to show the benefits and prove the necessity of the product. For this reason I chose to ask the graphic designer to make illustrations of the product to try to get into the friendly and cool side that the brand puts forward. And therefore have a playful and reassuring side that can create a purchase of the product."
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Parallax.jpg"
+        },
+        {
+            "type":"title",
+            "content": "Colors in Design System"
+        },
+        {
+            "type":"text",
+            "content": "The choice of colors is essential in an interface. It is through this that we can transcribe the identity of a brand and therefore recognize it at first glance. On this project I based myself on the product's graphic charter while extending the range of colors."
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Single-1.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Single-1.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Preview.jpg"
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Single-4.jpg"
+        },
+        {
+            "type":"title",
+            "content": "The responsive website"
+        },
+        {
+            "type":"text",
+            "content": "It was the first time I had to create a mobile version of a site. It is an exercise in which I found a real interest and where I saw the utility and importance of making mock-ups in a mobile version. I was able to understand the restrictions and require of a mobile version that I didn't know until then."
+        },
+        {
+            "type":"img",
+            "content": "/assets/images/Plant_Hero/PlantHero-Single-5.jpg"
+        }
+    ]
+}

@@ -25,7 +25,16 @@ $container['db'] = function($container){
     return $pdo;
 };
 
+$container['notFoundHandler'] = function($container)
+{
+    return function($request, $response) use ($container)
+    {
+      $error=[];
 
+      $error['style'] = "404.css";
+      return $container['view']->render($response->withStatus(404), 'pages/404.twig', $error);
+    };
+};
 
 // MAILER SERVICE 
 /*
