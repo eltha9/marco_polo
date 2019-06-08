@@ -125,11 +125,10 @@ a.link-project h3:hover, a.link-project h4:hover{
     font-weight: 500;
 }
 .contact .inputs input{
-    border: none;
+    font-size: 20px;
 }
 
 .contact .inputs textarea{
-    border: none;
     font-size: 20px;
 }
 
